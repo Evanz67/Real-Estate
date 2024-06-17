@@ -26,18 +26,33 @@ class LoginSystem:
 
 class ApartmentList:
 
-    apartmentDetails = []
+    apartmentList = []
 
     def fetchApartment(self):
         for i in range(len(ApartmentBroker().deserializeAccount())):
-            self.apartmentDetails.append(ApartmentBroker().deserializeAccount()[i])
+            self.apartmentList.append(ApartmentBroker().deserializeAccount()[i])
         
-        for i in range(len(self.apartmentDetails)):
-            print(self.apartmentDetails[i])
-        
-        
+        for apartment in self.apartmentList:     
 
+            if apartment["unitAvailable"] == True:
 
+                print("Apartment: " + str(apartment["apartmentNum"]))
+                print("Unit Area: " + str(apartment["unitArea"]))
+                print("Number of Bedrooms: " + str(apartment["numOfBedroom"]))
+                print("Number of Baths: " + str(apartment["numOfBath"]))
+
+                if apartment["balconyAvailable"] == True:
+                    print("Balcony: Available")
+                else:
+                    print("Balcony: Not Available")
+
+                if apartment["inSuiteLaundry"] == True:
+                    print("In Suite Laundry: Available\n")
+                else:
+                    print("In Suite Laundry: Not Available\n")
+                
+
+            
 class NewAccountCreation:
 
     username = None
@@ -48,25 +63,6 @@ class NewAccountCreation:
         self.username = username
         self.password = password
         self.email = email
-
-
-
-class ApartmentData:
-
-    unitArea = None
-    unitAvailable = None
-    numOfBedroom = None
-    numOfBath = None
-    balconyAvailable = None
-    inSuiteLaundry = None
-
-    def __init__(self, unitArea, unitAvailable, numOfBedroom, numOfBath, balconyAvailable, inSuiteLaundry):
-        self.unitArea = unitArea
-        self.unitAvailable = unitAvailable
-        self.numOfBedroom = numOfBedroom
-        self.numOfBath = numOfBath
-        self.balconyAvailable = balconyAvailable
-        self.inSuiteLaundry = inSuiteLaundry
 
 class BuildingData:
 
