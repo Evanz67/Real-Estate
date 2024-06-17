@@ -1,0 +1,10 @@
+[
+    {
+        "unitArea": "300",
+        "unitAvailable": "True",
+        "numOfBedroom": "2",
+        "numOfBath": "1",
+        "balconyAvailable": "True",
+        "inSuiteLaundry": "True"
+    }
+]
