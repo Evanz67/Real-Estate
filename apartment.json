@@ -1,10 +1,29 @@
 [
     {
+        "apartmentNum": 1,
+        "unitAvailable": true,
         "unitArea": "300",
-        "unitAvailable": "True",
-        "numOfBedroom": "2",
-        "numOfBath": "1",
-        "balconyAvailable": "True",
-        "inSuiteLaundry": "True"
+        "numOfBedroom": 2,
+        "numOfBath": 1,
+        "balconyAvailable": true,
+        "inSuiteLaundry": true
+    },
+    {
+        "apartmentNum": 2,
+        "unitAvailable": false,
+        "unitArea": "350",
+        "numOfBedroom": 2,
+        "numOfBath": 2,
+        "balconyAvailable": false,
+        "inSuiteLaundry": true
+    },
+    {
+        "apartmentNum": 3,
+        "unitAvailable": true,
+        "unitArea": "500",
+        "numOfBedroom": 3,
+        "numOfBath": 2,
+        "balconyAvailable": false,
+        "inSuiteLaundry": true
     }
 ]

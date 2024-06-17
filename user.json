@@ -1,52 +1,8 @@
-[
-    {
-        "username": "sadsa",
-        "password": "sadsa",
-        "email": "sadsa"
-    },
-    {
-        "username": "sada",
-        "password": "asdas",
-        "email": "sadas"
-    },
-    {
-        "username": "sad",
-        "password": "dsad",
-        "email": "fa"
-    },
-    {
-        "username": "John",
-        "password": "Veggie",
-        "email": "mad"
-    },
-    {
-        "username": "Anna",
-        "password": "Pork",
-        "email": "happy"
-    },
-    {
-        "username": "Jack",
-        "password": "Box",
-        "email": "Ey"
-    },
-    {
-        "username": "Maboi",
-        "password": "Boi",
-        "email": "Oi"
-    },
-    {
-        "username": "Nice",
-        "password": "Code",
-        "email": "Loser"
-    },
-    {
-        "username": "sadas",
-        "password": "asfasf",
-        "email": "asfafaf"
-    },
-    {
-        "username": "Arthur",
-        "password": "database",
-        "email": "asdfghjkl"
-    }
-]
+{
+    "unitArea": "300",
+    "unitAvailable": true,
+    "numOfBedroom": 2,
+    "numOfBath": 1,
+    "balconyAvailable": true,
+    "inSuiteLaundry": true
+}
