@@ -58,7 +58,41 @@ class ApartmentList:
             apartmentListBox.insert(END, " ")
                         
 class Payment:
-    pass
+    
+    def pay(self, cardType, cardHolderName, cardNumber, ccv, dateExpiry):
+
+        paymentInfo = {
+            "cardType" : cardType,
+            "cardHolderName" : cardHolderName,
+            "cardNumber" : cardNumber,
+            "ccv" : ccv,
+            "dateExpiry" : dateExpiry
+        }
+
+        if paymentInfo["cardType"] == "Debit":
+            if paymentInfo["cardHolderName"] == "John Smith":
+                if paymentInfo["cardNumber"] == "9999-9999-9999-9999":
+                    if paymentInfo["ccv"] == "999":
+                        if paymentInfo["dateExpiry"] == "08/31":
+                            print("Card is valid")
+
+    def generateTransactionRecord():
+        pass
+
+class PaymentDetails:
+
+    cardType = None
+    cardHolderName = None
+    cardNumber = None
+    ccv = None
+    dateExpiry = None
+
+    def __init__(self, cardType, cardHolderName, cardNumber, ccv, dateExpiry):
+        self.cardType = cardType
+        self.cardHolderName = cardHolderName
+        self.cardNumber = cardNumber
+        self.ccv = ccv
+        self.dateExpiry = dateExpiry
        
 class NewAccountCreation:
 
