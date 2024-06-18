@@ -25,5 +25,59 @@
         "numOfBath": 2,
         "balconyAvailable": false,
         "inSuiteLaundry": true
+    },
+    {
+        "apartmentNum": 4,
+        "unitAvailable": true,
+        "unitArea": "500",
+        "numOfBedroom": 3,
+        "numOfBath": 2,
+        "balconyAvailable": false,
+        "inSuiteLaundry": true
+    },
+    {
+        "apartmentNum": 5,
+        "unitAvailable": false,
+        "unitArea": "500",
+        "numOfBedroom": 3,
+        "numOfBath": 2,
+        "balconyAvailable": false,
+        "inSuiteLaundry": true
+    },
+    {
+        "apartmentNum": 6,
+        "unitAvailable": true,
+        "unitArea": "500",
+        "numOfBedroom": 3,
+        "numOfBath": 2,
+        "balconyAvailable": false,
+        "inSuiteLaundry": true
+    },
+    {
+        "apartmentNum": 7,
+        "unitAvailable": false,
+        "unitArea": "500",
+        "numOfBedroom": 3,
+        "numOfBath": 2,
+        "balconyAvailable": false,
+        "inSuiteLaundry": true
+    },
+    {
+        "apartmentNum": 8,
+        "unitAvailable": false,
+        "unitArea": "500",
+        "numOfBedroom": 3,
+        "numOfBath": 2,
+        "balconyAvailable": false,
+        "inSuiteLaundry": true
+    },
+    {
+        "apartmentNum": 9,
+        "unitAvailable": true,
+        "unitArea": "500",
+        "numOfBedroom": 3,
+        "numOfBath": 2,
+        "balconyAvailable": false,
+        "inSuiteLaundry": true
     }
 ]
