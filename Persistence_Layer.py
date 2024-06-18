@@ -21,7 +21,7 @@ class ApartmentBroker:
 
     textFile = "apartment.json"
     
-    def deserializeAccount(self):
+    def deserializeApartmentData(self):
         with open(self.textFile, "r") as openFile:
 
             jsonObj = json.load(openFile)

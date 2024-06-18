@@ -1,8 +1,7 @@
-{
-    "unitArea": "300",
-    "unitAvailable": true,
-    "numOfBedroom": 2,
-    "numOfBath": 1,
-    "balconyAvailable": true,
-    "inSuiteLaundry": true
-}
+[
+    {
+        "username": "Donut",
+        "password": "Cream",
+        "email": "Sugar"
+    }
+]
