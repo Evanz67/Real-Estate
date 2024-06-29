@@ -27,3 +27,7 @@ class ApartmentBroker:
             jsonObj = json.load(openFile)
         
         return jsonObj
+
+class TransactionBroker:
+
+    pass

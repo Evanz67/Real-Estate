@@ -219,6 +219,28 @@ def mainPageLogin():
     paymentButton.pack(side = "left", padx=(0, 10))
     calendarButton.pack()
 
+def paymentPage():
+    clearScreen()
+    global frame
+    global frameEntry
+    global frameButton
+
+    cardTypeString = StringVar()
+
+    frame = Frame(root)
+    frameButton = Frame(root)
+    frameEntry = Frame(root)
+
+    paymentLabel = Label(frame, font = ("Arial", 24), text = "Payment")
+    cardTypeLabel = Label(frameEntry, font = ("Arial", 12), text = "Card Type: ")
+    cardNameHolderLabel = Label(frameEntry, font = ("Arial", 12), text = "Card Name Holder: ")
+    cardNumberLabel = Label(frameEntry, font = ("Arial", 12), text = "Card Number: ")
+    ccvLabel = Label(frameEntry, font = ("Arial", 12), text = "CCV: ")
+    dateExpiryLabel = Label(frameEntry, font = ("Arial", 12), text = "Date Expiry: ")
+
+    cardType= Entry(frameEntry, textvariable = cardTypeString, font = ("Arial", 12), fg = "black")
+    
+
 
 #-----------------------------------------------------------------Code below is a starter page for initialization----------------------------------------------------------------------------#
 
@@ -295,3 +317,7 @@ password.pack()
 #Event checker
 root.mainloop()
 
+class Man:
+
+    def test(self, cardType, cardHolderName, cardNumber, ccv, dateExpiry):
+        Payment().pay(cardType, cardHolderName, cardNumber, ccv, dateExpiry)
