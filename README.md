@@ -1,3 +1,3 @@
-Create a virtual environment : python -m venv myenv
+Create a virtual environment : python3 -m venv env
 
-Run virtual environment : myenv\Scripts\activate.bat
+Run virtual environment : env\Scripts\activate.bat
